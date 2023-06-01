@@ -24,6 +24,7 @@ class App extends Component {
         alert('This contact is already in contacts');
         return true;
       }
+      return false;
     });
 
     if (!isDuplicate) {
